@@ -1,0 +1,60 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  text-align: center;
+}
+
+/* ao adicionar uma largura, devemos por uma margin para centralizar caso desejamos, nesse caso seria auto, optamos por espaçamento no bottom */
+#hero {
+  width: 592px;
+  margin: 0 auto 72px;
+
+}
+
+#hero img {
+  margin-bottom: 72px; 
+
+}
+
+h1 {
+  font-family: 'Inter', sans-serif;
+  font-size: 49px;
+  line-height: 56px;
+  font-weight: normal;
+  margin-bottom: 32px;
+}
+
+h1 span {
+  font-weight: bold;
+}
+
+
+span, a {
+  color: #FF9900;
+}
+
+p , #footer {
+  color: #7D7987;
+  font-size: 14px;
+  line-height: 28px;  
+}
+
+
+ #footer a + a{
+  margin-left: 28px;
+}
+
+/* adicionar a linha */
+/* Se definirmos um tamanho, precisamos tbm incluir uma margem automatica para preencher as laterais */
+.line {
+  width: 568px;
+  height: 0px;
+  margin: 0 auto 8px;
+  border: 1px solid #eceff2;
+}
+
+#bola {
+  position:fixed;
+  bottom: 0px;
+  right: 0px;
+}
